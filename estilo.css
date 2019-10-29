@@ -1,0 +1,324 @@
+/*LOGIN.PHP*/
+
+@font-face {
+ 	font-family: TPRM;
+ 	src: url("Media/Biryani/Biryani-Regular.ttf");
+}
+
+#body_login {
+	font-family: TPRM;
+	background: #FEF9F3;
+}
+
+#principal_login {
+	width: 500px;
+	height: 450px;				
+	border-radius: 10px 10px 0px 0px;
+	border-bottom: 15px solid #FF6D02;
+	box-shadow: 0px 3px 15px #E3E3E3;
+	text-align: center;
+	position: fixed;
+	top: 100px;
+	left: 425px;
+}
+
+#logo_login{
+	position: fixed;
+	top: 30px;
+	left: 495px;
+}
+
+#bemvindo {
+	color: #8E8E8E ;
+	font-size: 45px;
+	text-align: center;
+	position: fixed;
+	top: 175px;
+	left: 545px;
+}
+
+#login {
+	position: fixed;
+	top: 325px;
+	left: 510px;
+}
+
+.texto_login {
+	font-weight: bold;
+	color: #8E8E8E;
+	font-size: 18px;
+}
+
+.input_login{
+	border-radius: 10px;
+	border: none;
+	box-shadow: 0px 3px 5px #E3E3E3; 
+	padding: 5px;
+	margin: 5px;
+	width: 250px;
+	height: 25px;
+
+}
+
+#button_login {
+	font-family: TPRM;
+	width: 100px;
+	height: 50px;
+	font-size: 20px;
+	font-weight: bold;
+	border: none;
+	border-radius: 10px;
+	margin-top: 30px;
+	color: #FFF;
+	background-color: #FF6D02;
+
+}
+
+#erro_login {
+	margin-top: 10px;
+}
+
+/*HOME.PHP*/
+
+#body_padrao {
+	font-family: TPRM;
+	background: #6C6862;
+}
+
+#navegacao_home {
+	height: 160px;
+	width:100%;
+	background-color: #FFF;
+	position: fixed;
+	border-bottom: 10px solid #FF6D02;
+	outline: 10px solid #F99B0B;
+	top:0;
+	left:0;
+}
+
+#logo_home {
+	float: left;
+	position: fixed;
+	top: 15px;
+	left: 30px;
+}
+
+#sessao {
+	float: right;
+	position: fixed;
+	right: 50px;
+	top: 40px;
+	font-weight: bold;
+}
+
+#consulta {
+	color: #6C6862;
+	position: fixed;
+	top: 180px;
+	left:0px;
+	width:100%;
+	border-radius: 10px 10px 0px 0px;
+	border-bottom: 10px solid orange;
+	background-color: #FFF;
+	margin: 10px;
+	font-size: 20px;
+	font-weight: bolder;
+	padding-left: 30px;
+	padding-top: 20px;
+}
+
+#menu_home {
+	position: fixed;
+	top: 255px;
+	left: 0px;
+	width: 100%;
+	height: 350px;
+	margin: 10px;
+}
+
+.menu_cadastro {
+	background-color: #FFF;
+	border-radius: 10px;
+	text-decoration: none;
+	padding: 10px 0px 10px 10px;
+	padding-left: 80px;
+}
+
+.acesso_home {
+	text-decoration: none;
+	color: #FF6D02;
+}
+
+.titulo_home {
+	font-weight: bolder;
+	font-size: 30px;
+	margin: 10px;
+}
+
+.subtitulo_home {
+	font-weight: bold;
+	margin: 10px;
+	font-size: 20px;
+}
+
+/*consulta_usuario.PHP*/
+
+#principal_USUARIO {
+	position: fixed;
+	width:100%;
+	top: 265px;
+	left: 10px;
+}
+
+#menu_USUARIO {
+	background-color: #FFF;
+	border-radius: 10px;
+	padding: 5px 0px 10px 20px;
+	text-align: center;
+	font-weight: bold;
+}
+
+#titulo_consulta {
+	font-color: #FF6D02;
+	font-weight: bold;
+}
+
+#conteudo_cadastro {
+
+}
+
+#cadastro_formulario {
+	background-color: #FFF;
+	border-radius: 10px;
+	padding: 30px;
+	margin-top: 20px; 
+	font-weight: bold;
+	text-align: center;
+}
+
+#efetuar_cadastro {
+	border-radius: 10px;
+	border: none;
+	background-color: #FF6D02;
+	font-family: TPRM;
+	font-weight: bold;
+	color: white;
+	width: 100px;
+	height: 50px;
+	font-size: 15px;
+}
+
+input[type='text']{
+	border-radius: 10px;
+	background-color: #FFF;
+	border: none;
+	width: 120px;
+	height: 25px;
+	margin: 10px;
+	padding: 10px;
+	box-shadow: 0px 1px 4px #646464;
+}
+
+input[type='password']{
+	border-radius: 10px;
+	background-color: #FFF;
+	border: none;
+	width: 120px;
+	height: 25px;
+	margin: 10px;
+	padding: 10px;
+	box-shadow: 0px 1px 4px #646464;
+}
+
+input[type="text"]:disabled {
+  background: #6C6862;
+}
+
+#busca_formulario {
+	background-color: #FFF;
+	border-radius: 10px;
+	padding: 30px;
+	margin-top: 20px; 
+	font-weight: bold;
+	text-align: center;
+}
+
+#formulario_editar_usuario{
+	background-color: #FFF;
+	border-radius: 10px;
+	padding: 30px;
+	margin-top: 20px; 
+	font-weight: bold;
+	text-align: center;
+}
+
+#formulario_remover_usuario{
+	background-color: #FFF;
+	border-radius: 10px;
+	padding: 30px;
+	margin-top: 20px; 
+	font-weight: bold;
+	text-align: center;
+}
+
+#tabela_editar {
+	background-color: #FFF;
+	border-radius: 10px;	
+	margin-top: 20px; 
+}
+
+#tabela_remover {
+	background-color: #FFF;
+	border-radius: 10px;	
+	margin-top: 20px; 
+}
+
+#tabela_usuario_editar {
+	border: 2px solid orange;
+	border-radius: 10px;
+	width: 50%;
+	margin-left: 370px;
+	text-align: center;
+	vertical-align: middle;
+	border-collapse: collapse;
+	font-size: 18px;
+	font-weight: bold;
+	margin-top: 30px;
+}
+
+#tabela_usuario_remover {
+	border: 2px solid orange;
+	border-radius: 10px;
+	width: 50%;
+	margin-left: 370px;
+	text-align: center;
+	vertical-align: middle;
+	border-collapse: collapse;
+	font-size: 18px;
+	font-weight: bold;
+	margin-top: 30px;
+}
+
+#resultados_busca {
+	background-color: #FFF;
+	border-radius: 10px;	
+	margin-top: 20px; 	
+}
+
+#resultados {
+	border: 2px solid orange;
+	border-radius: 10px;
+	width: 50%;
+	margin-left: 370px;
+	text-align: center;
+	vertical-align: middle;
+	border-collapse: collapse;
+	font-size: 18px;
+	font-weight: bold;
+	margin-top: 30px;
+}
+
+td {
+	border: 3px solid orange;
+
+}

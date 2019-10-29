@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+
+<html>
+
+	<head>
+		<title>TPRM - Criar BD</title>
+		<meta charset="utf-8" />
+
+		<style type="text/css">
+
+			@font-face {
+ 				font-family: TPRM;
+ 				src: url("Media/Biryani/Biryani-Regular.ttf");
+			}
+
+			#principal_BD {
+				width: 500px;
+				height: 400px;				
+				border-radius: 10px 10px 0px 0px;
+				border-bottom: 15px solid #FF6D02;
+				box-shadow: 0px 3px 10px #E3E3E3;
+				text-align: center;
+				position: fixed;
+				top: 100px;
+				left: 425px;
+			}
+
+			#img {
+				position: fixed;
+				top: 40px;				
+			}
+
+			#txt {
+				color: #FF6D02;
+				font-family: TPRM;
+				padding: 70px 70px 30px 70px;
+
+			}
+
+			#area_botao_BD {
+				vertical-align: middle;
+				text-align: center;
+			}
+
+			#botao_BD{
+			  background-color: #E3E3E3;
+			  border: none;
+			  color: #FF6D02;			  
+			  text-align: center;
+			  text-decoration: none;
+			  display: inline-block;
+			  font-size: 18px;
+			  font-weight: bold;
+			  padding: 15px 25px;
+			}
+
+		</style>
+
+	</head>
+	
+	<body>
+		<div id = "principal_BD">
+			<div id = "logo_BD">
+				<div id = "img"><img src="Media/tprmlogo.png" width="300px"></div>
+				<div id = "txt"><h1>Clique no botão para criar o banco de dados.</h1></div>
+			</div>
+			<div id = "area_botao_BD">
+				<form method="post" action="criar_BD.php">
+					<button id="botao_BD">Criar Banco de Dados</button>
+				</form>
+			</div>
+		</div>	
+	</body>
+
+</html>
